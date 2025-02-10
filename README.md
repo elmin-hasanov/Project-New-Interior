@@ -1,10 +1,13 @@
 # Project-New-Interior
+
+![readme](https://github.com/user-attachments/assets/6f63f537-0f48-494a-ac39-5277c30f4c62)
+
 # 🌐 Mein Web-Projekt
 
-## 🚀 Projektbeschreibung  
+## 🚀 Projektbeschreibung
 Dieses Projekt ist eine einfache, aber moderne Webseite, die ich im Rahmen meines Kurses erstellt habe. Dabei habe ich **HTML und CSS** genutzt, um ein responsives und interaktives Layout zu gestalten.
 
-## 🛠️ Verwendete Technologien  
+## 🛠️ Verwendete Technologien
 ### **1️⃣ HTML (HyperText Markup Language)**
 - Strukturierung der Webseite mit semantischen HTML-Tags (`header`, `nav`, `section`, `footer`).
 - Einbindung von Bildern, Links und Formularen.
@@ -19,7 +22,7 @@ Dieses Projekt ist eine einfache, aber moderne Webseite, die ich im Rahmen meine
 - **Form-Styling** für eine ansprechende Gestaltung von Eingabefeldern.
 
 ## 📱 Responsivität  
-Die Webseite ist für verschiedene Bildschirmgrößen optimiert:  
-✅ **Desktop** (ab 1024px)  
-✅ **Tablet** (768px - 1024px)  
-✅ **Smartphones** (bis 430px)  
+Die Webseite ist für verschiedene Bildschirmgrößen optimiert:
+✅ **Desktop** (ab 1024px)
+✅ **Tablet** (768px - 1024px)
+✅ **Smartphones** (bis 430px)

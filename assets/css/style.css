@@ -63,6 +63,10 @@ header nav :nth-of-type(1) {
     text-decoration: none;
 }
 
+header nav :nth-of-type(1):hover {
+    text-decoration: underline;
+}
+
 header section {
     display: flex;
     flex-direction: column;
@@ -109,7 +113,7 @@ header section p {
     position: absolute;
     transform: translateX(-50%);
     animation: bounce 1s infinite;
-  }
+}
   
   @keyframes bounce {
     0%, 100% {
@@ -119,8 +123,6 @@ header section p {
       transform: translateX(-50%) translateY(10px);
     }
   }
-
-
 
 @media screen and (max-width: 430px) {
     header section h2 {
@@ -140,7 +142,7 @@ header section p {
     background-color: #FFF;
     display: flex;
     flex-direction: column;
-    margin: 4vw 8vw 4vw 8vw;
+    margin: 4vw 8vw;
     overflow: hidden;
 }
 
@@ -178,13 +180,13 @@ header section p {
     justify-content: center;
     align-items: center;
     border: 1px solid #3A4F52;
-
     color: #3A4F52;
     font-family: "Helvetica Neue";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .portfolio-h2 a:hover {
@@ -300,7 +302,6 @@ header section p {
         height: 100%;
     }
 
-    /* Setze die Stile so, dass sie immer aktiv sind (simuliert den Hover-Zustand) */
     .item-1 .image, .item-2 .image, .item-3 .image, .item-4 .image, .item-5 .image, .item-6 .image {
         opacity: 0.2;
         transform: scale(1.2);
@@ -310,7 +311,6 @@ header section p {
         opacity: 1;
     }
 
-    /* Entferne Hover-Styles für mobile Ansicht */
     .item-1:hover .image, .item-2:hover .image, .item-3:hover .image, .item-4:hover .image, .item-5:hover .image, .item-6:hover .image {
         opacity: 0.2;
         transform: scale(1.2);
@@ -341,7 +341,7 @@ header section p {
 
 .services {
     display: flex;
-    padding: 4vw 8vw 4vw 8vw;
+    padding: 4vw 8vw;
     background: url(../img/services.png)
     no-repeat center / cover;
     background-attachment: fixed;
@@ -420,21 +420,22 @@ header section p {
     }
     
     .services {
-        padding: 13vw 0vw 13vw 0vw;
+        padding: 13vw 0vw;
+        background-attachment: scroll;
     }
     
     .services article {
-        padding: 6px 0px 6px 0px;
+        padding: 6px 0px;
     }
 }
 
 @media screen and (max-width: 430px) {
     .services {
-        padding: 13vw 0vw 13vw 0vw;
+        padding: 13vw 0vw;
     }
     
     .services article {
-        padding: 6px 0px 6px 0px;
+        padding: 6px 0px;
     }
 }
 
@@ -448,7 +449,7 @@ header section p {
     background-color: #FFF;
     display: flex;
     flex-direction: column;
-    margin: 4vw 8vw 4vw 8vw;
+    margin: 4vw 8vw;
 }
 
 .blogbox {
@@ -516,7 +517,7 @@ header section p {
 
 .parallax {
     display: flex;
-    padding: 4vw 8vw 4vw 8vw;
+    padding: 4vw 8vw;
     background: url(../img/parallax.png)
     no-repeat center / cover;
     background-attachment: fixed;
@@ -563,7 +564,8 @@ header section p {
 
 @media screen and (max-width: 430px) {
     .parallax {
-        padding: 20vw 1vw 20vw 1vw;
+        padding: 20vw 1vw;
+        background-attachment: scroll;
     }
 }
 
@@ -577,7 +579,7 @@ header section p {
     background-color: #FFF;
     display: flex;
     flex-direction: column;
-    margin: 4vw 8vw 4vw 8vw;
+    margin: 4vw 8vw;
 }
 
 .testeruberschrift {
@@ -666,7 +668,7 @@ header section p {
 
 .contact {
     display: flex;
-    padding: 4vw 8vw 4vw 8vw;
+    padding: 4vw 8vw;
     background: url(../img/contact.png)
     no-repeat center / cover;
     background-attachment: fixed;
@@ -766,7 +768,8 @@ header section p {
 
 @media screen and (max-width: 430px) {
     .contact {
-        padding: 8vw 0vw 8vw 0vw;
+        padding: 8vw 0vw;
+        background-attachment: scroll;
     }
 
     .formname input {
@@ -800,7 +803,6 @@ header section p {
         opacity: 1;
     }
 }
-
 
 /* **************** */
 /*   footer        */

@@ -1,6 +1,5 @@
 # Project-New-Interior
-
-![readme](https://github.com/user-attachments/assets/6f63f537-0f48-494a-ac39-5277c30f4c62)
+# https://elmin-hasanov.github.io/Project-New-Interior/
 
 # 🌐 Mein Web-Projekt
 

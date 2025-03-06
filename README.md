@@ -3,27 +3,27 @@
 
 ![readme](https://github.com/user-attachments/assets/6f63f537-0f48-494a-ac39-5277c30f4c62)
 
-# 🌐 Mein Web-Projekt
+# 🌐 My Web Project  
 
-## 🚀 Projektbeschreibung
-Dieses Projekt ist eine einfache, aber moderne Webseite, die ich im Rahmen meines Kurses erstellt habe. Dabei habe ich **HTML und CSS** genutzt, um ein responsives und interaktives Layout zu gestalten.
+## 🚀 Project Description  
+This project is a simple yet modern website that I created as part of my course. I used **HTML and CSS** to design a responsive and interactive layout.  
 
-## 🛠️ Verwendete Technologien
-### **1️⃣ HTML (HyperText Markup Language)**
-- Strukturierung der Webseite mit semantischen HTML-Tags (`header`, `nav`, `section`, `footer`).
-- Einbindung von Bildern, Links und Formularen.
-- Nutzung von `div`-Containern zur Gruppierung von Elementen.
+## 🛠️ Technologies Used  
+### **1️⃣ HTML (HyperText Markup Language)**  
+- Structuring the website with semantic HTML tags (`header`, `nav`, `section`, `footer`).  
+- Embedding images, links, and forms.  
+- Using `div` containers to group elements.  
 
-### **2️⃣ CSS (Cascading Style Sheets)**
-- **Flexbox & Grid** für ein modernes Layout und bessere Anordnung der Elemente.
-- **Media Queries** für eine responsive Darstellung auf verschiedenen Geräten.
-- **Custom Fonts** mit `@font-face`, um individuelle Schriften zu laden.
-- **Parallax-Effekte** mit `background-attachment: fixed;` für coole Hintergrundeffekte.
-- **Animationen & Übergänge** mit `hover`-Effekten und `transform`.
-- **Form-Styling** für eine ansprechende Gestaltung von Eingabefeldern.
+### **2️⃣ CSS (Cascading Style Sheets)**  
+- **Flexbox & Grid** for a modern layout and better element arrangement.  
+- **Media Queries** for responsive design across different devices.  
+- **Custom Fonts** with `@font-face` to load unique typefaces.  
+- **Parallax Effects** using `background-attachment: fixed;` for cool background effects.  
+- **Animations & Transitions** with `hover` effects and `transform`.  
+- **Form Styling** to enhance the appearance of input fields.  
 
-## 📱 Responsivität  
-Die Webseite ist für verschiedene Bildschirmgrößen optimiert:
-✅ **Desktop** (ab 1024px)
-✅ **Tablet** (768px - 1024px)
-✅ **Smartphones** (bis 430px)
+## 📱 Responsiveness  
+The website is optimized for different screen sizes:  
+✅ **Desktop** (1024px and above)  
+✅ **Tablet** (768px - 1024px)  
+✅ **Smartphones** (up to 430px)
